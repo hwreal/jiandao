@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Lc7.v20ck)L}g42C|^?|">随机数字</variable></variables><block type="device_gesture_event" id="v-0-u$xLv|D/kzLi#468" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="Ab~K%$q:W^!]fGB8t0#V"><field name="VAR" id="Lc7.v20ck)L}g42C|^?|">随机数字</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="BmR?Yw(dbVI/AM5?,-R="><value name="min"><shadow type="math_number" id="0*z@w8#?F;4@v|~X0Bk("><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="E4o!g.?oCX@c8*;zxlu{"><field name="NUM">3</field></shadow></value></block></value><next><block type="SoundExpression_play" id=",N?5*3liq~:E_e^P,s#H"><field name="this">soundExpression.sad</field><next><block type="controls_if" id="L+IJS@j{w#lB.k2=N7nO"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="`l{HtlP[TSIlAx5b(W{/"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="zGM/k3jw$J7~M~iXg?=^"><field name="VAR" id="Lc7.v20ck)L}g42C|^?|">随机数字</field></block></value><value name="B"><shadow type="math_number" id="Shdg$7LbBxtaKaOdI-YK"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="*D!g$B7IY0=y01A)NdX;"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="6t5[CKM0mmbe^8`0E67I"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="_vfnp8qh[1YT/5*[D.z`"><field name="VAR" id="Lc7.v20ck)L}g42C|^?|">随机数字</field></block></value><value name="B"><shadow type="math_number" id="fp+9NUSqDkG0O[JURGIc"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="NE]Df~p]9N[~.bCzvx1X"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="5AF)1=MW-HPalB]o8A-W"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></next></block></statement></block><block type="SoundExpression_play" id="46@jc7b5Rr~MNE~~7S=c" disabled="true" x="1873" y="71"><field name="this">soundExpression.sad</field><comment>soundExpression.giggle.play()</comment><next><block type="basic_show_icon" id="n/*ygq[L`tkDtbD~o~@d" disabled="true"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="(ZEnMzFh=J2Hndazf^L*" disabled="true"><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="LSpm4N.h;OEY^+@~X!tT" disabled="true"><field name="i">IconNames.Heart</field><next><block type="device_clear_display" id="OZBc@m[F-O2+E2n+%4ez" disabled="true"/></next></block></next></block></next></block></next></block></xml>
